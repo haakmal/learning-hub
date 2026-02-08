@@ -1,0 +1,25 @@
+# Obsidian volatiles
+.obsidian/workspace.json
+.obsidian/app.json
+
+# Hugo
+/public/
+
+# Build directories
+public
+dist
+
+# Mac files
+.DS_Store
+Thumbs.db
+
+# Backup Files
+*.markdown-
+*.md-
+
+# Apache
+.htpasswd
+
+# Logs
+logs
+*.log
