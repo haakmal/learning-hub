@@ -13,7 +13,7 @@ copyright: "[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode
 
 # Book configuration
 disablePathToLower: true
-enableGitInfo: true
+enableGitInfo: false
 
 # Needed for mermaid/katex shortcodes
 markup:
