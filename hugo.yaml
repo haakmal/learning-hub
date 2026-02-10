@@ -90,7 +90,7 @@ params:
   # (Optional, default none) Set template for commit link for the page. Requires enableGitInfo.
   # When set enabled 'Last Modified' and a link to the commit in the footer of the page.
   # Param is executed as template using .Site, .Page and .GitInfo as context.
-  BookLastChangeLink: "https://github.com/alex-shpak/hugo-book/commit/{{ .GitInfo.Hash }}"
+  BookLastChangeLink: "https://github.com/haakmal/learning-hub/commit/{{ .GitInfo.Hash }}"
 
   # (Optional, default none) Set template for edit page link.
   # When set enabled 'Edit this page' link in the footer of the page.
