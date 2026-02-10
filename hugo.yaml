@@ -4,7 +4,8 @@
 # hugo server --printPathWarnings --disableFastRender --cleanDestinationDir=true --logLevel=debug \
 # --gc -M -s exampleSite --themesDir ../.. -b http://127.0.0.1/
 
-baseURL: http://0.0.0.0:1313/
+#baseURL: http://0.0.0.0:1313/
+baseURL: https://haakmal.github.io/learning-hub/
 title: Learning Hub
 theme: hugo-book
 
