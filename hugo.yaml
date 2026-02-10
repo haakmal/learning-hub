@@ -21,6 +21,7 @@ markup:
       unsafe: true
   tableOfContents:
     startLevel: 1
+    endLevel: 4
   highlight:
     style: base16-snazzy
 
@@ -31,48 +32,36 @@ markup:
 languages:
   en:
     languageName: English
+    languageCode: en
     contentDir: content.en
     weight: 1
+    title: Learning Hub
+    menu:
+      after:
+        - name: "Github"
+          url: "https://github.com/haakmal/learning-hub/"
+          weight: 20
+        - name: "Hugo Book"
+          url: "https://themes.gohugo.io/themes/hugo-book/"
+          weight: 20
+
   zh:
-    languageName: Chinese
+    languageName: 中国人
     contentDir: content.zh
+    languageCode: zh
+    title: 学习中心
     weight: 2
+    menu:
+      after:
+        - name: "Github"
+          url: "https://github.com/haakmal/learning-hub/"
+          weight: 20
+        - name: "Hugo Book"
+          url: "https://themes.gohugo.io/themes/hugo-book/"
+          weight: 20
 
-menu:
-  home:
-    - name: "Workbooks"
-      pageRef: "/docs/"
-      weight: 1
-    - pageRef: "/docs/"
-      weight: 10
-      parent: "Workbooks"
-    - name: "UI Workbook"
-      pageRef: "/docs/ui/"
-      weight: 20
-      parent: "Workbooks"
-    - name: "UX Workbook"
-      pageRef: "/docs/ux/"
-      weight: 30
-      parent: "Workbooks"
-    - name: "Prototyping Workbook"
-      pageRef: "/docs/prototyping"
-      weight: 40
-      parent: "Workbooks"
-    - name: "About"
-      url: "https://hakmal.com/Info/"
-      weight: 2
-    - name: "Github"
-      url: "https://github.com/haakmal/learning-hub/"
-      weight: 3
-
-  # before: []
-  after:
-    - name: "Github"
-      url: "https://github.com/haakmal/learning-book"
-      weight: 10
-    - name: "Hugo Book"
-      url: "https://themes.gohugo.io/themes/hugo-book/"
-      weight: 20
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
