@@ -8,8 +8,8 @@
 # Always put it on the top of the configuration file, otherwise it won't work
 googleAnalytics: "G-5C5LWEEGM4"
 
-baseURL: http://0.0.0.0:1313/
-#baseURL: https://haakmal.github.io/learning-hub/
+#baseURL: http://0.0.0.0:1313/
+baseURL: https://haakmal.github.io/learning-hub/
 title: Learning Hub
 theme: hugo-book
 
